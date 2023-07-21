@@ -57,6 +57,8 @@ function updateCheck (i) {
     switch (this_check.prop('checked')) {
         case true:
             its_text.css({"text-decoration": "line-through"});
+            its_text.css({"text-decoration-color": "#98B695"});
+            its_text.css({"text-decoration-style": "wavy"});
             console.log(this_check.prop('checked'));
             break
 
