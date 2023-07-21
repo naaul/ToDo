@@ -1,0 +1,135 @@
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: #98B695;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-family: 'Pacifico', cursive;
+}
+
+
+#header-div{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delete-all{
+    height: 4rem;
+    cursor: pointer;
+}
+
+.delete-all:hover{
+    height: 4.3rem;
+}
+
+#card{
+    background-color: white;
+    width: 95%;
+    height: 60vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y:auto;
+    box-shadow: 5px 5px 14px #a0a0a0;
+}
+
+
+#add{
+    height: 4rem;
+    cursor: pointer;
+    width: 4rem;
+    position: absolute;
+    margin: auto;
+    margin-bottom: 2rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+
+}
+
+#add:hover{
+    height: 4.3rem;
+    cursor: pointer;
+    width: 4.3rem;
+    position: absolute;
+    margin: auto;
+    margin-bottom: 1.8rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.row:hover{
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.row:hover > svg{
+    display: block;
+}
+
+.check{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #98B695;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.check:checked{
+    background-color: #98B695;
+}
+
+.check-text{
+    margin-left: 0.7rem;
+}
+
+.delete{
+    height: 35px;
+    cursor: pointer;
+    width: auto;
+    margin-right: .7rem;
+    display: none;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    border: 0;
+    background-color: white;
+    width: 150%;
+    text-align: start;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    user-select: none;
+}
+
+

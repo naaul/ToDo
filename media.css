@@ -1,0 +1,40 @@
+@media screen and (max-width: 500px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .delete-all{
+        height: 2.5rem;
+    }
+
+    .delete-all:hover{
+        height: 3rem;
+    }
+
+    .delete{
+        height: 25px;
+        cursor: pointer;
+        width: auto;
+        margin-right: 1rem;
+        display: block;
+    }
+
+    #card{
+        width: 90%;
+        height: 60vh;
+    }
+
+    .text{
+        font-size: .86rem;
+        width: 100%;
+    }
+
+    #add{
+        margin-bottom: 1rem;
+    }
+
+    #add:hover{
+        margin-bottom: 0.8rem;
+    }
+}
